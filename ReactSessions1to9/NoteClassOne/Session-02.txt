@@ -1,0 +1,93 @@
+Bundlers :
+->vite,parcel,webpack
+--------------------------
+create-react-app
+Here we are using parcel
+------------------------------
+webpack is used in production
+------------------------------------
+parcel is easy to do
+=============================================
+what is parcel:
+it is a package .it is inside of bundler.
+==================================================
+what is npm:
+//home work
+-----------------------------
+how to use npm in our project 
+1.npm init->it is intilizing npm in app
+2.how to ignite my app so we can use parcel
+search in parcel
+3. we need to set parcel in my app so we need to run npm install -D parcel(it will create package-lock-json and in package .json adding the parcel and nodemodules it will created)
+
+-D (dev dependency all the packages) is the developemnt 
+--save-D both are same
+
+^and ~//homework(it will upgrade version automatically)
+===============================================
+what is package lock?
+it will tell the exact version of the packages.
+->it locks the package versions
+->we can not pull package-lock-json file in gitignore.
+->it maintains the hash//homework
+================================================
+node modules are the database of the npm 
+================================================cdn LINKS IS  not good way to add react in app
+So How to install react and reactdom in nodemodules
+so we need to run: npm install 
+so here i not specifying dev because i want i react in whole like dev ,production.stage so i not sepified
+After that run : npm i react-dom
+================================================
+(excute npm npx means)
+npx parcel index.html
+so the server will started 
+the server is creted the parcel 
+================================================
+
+ we just remove cdn links and import react and react dom in app.js files and 
+ we need to sepified type='module" in index.html file in script tag
+ -------------------------------------------
+  these are all things will do in parcel:
+  *********************************
+  parcel is bundler.
+  HMR:hot module reloding
+  if add any thing it is atomatically running because of ->file watcher algorithm- written in c++.
+  minify
+  buliding
+  cleaning our code
+  dev and production buildsuper fast build alogorithm
+  image optimization
+  caching while development 
+  compression
+  rewritting
+  compatable with odler versions of browsers
+  https on dev
+  managing and handling port numbers
+  consistent hashing algorithm
+  transitive dependency
+ ===============================================
+ npx parcel build index.html
+ it will build the project and i will create dist folder .
+ 
+========================================
+we should put parcel.cache in gitignore
+because it can is autogenrated so we put in 
+anything will genrate by server that we can put in gitignore.
+
+========================================
+transitive dependency : //take definitation
+=========================================
+'browsersList":{
+last 2 versions
+}
+===============================================
+diff packe.json and lock json file
+gitignore
+type="module"
+
+
+
+ 
+ 
+  
+
